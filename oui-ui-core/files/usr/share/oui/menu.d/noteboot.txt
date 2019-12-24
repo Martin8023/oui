@@ -1,0 +1,6 @@
+//"status/routes": {
+//"title": "Routes",
+//"acls": [ "status" ],
+//"view": "status/routes",
+//"index": 20
+//},
