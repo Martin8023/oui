@@ -4,16 +4,16 @@ module.exports = {
   devServer: {
     proxy: {
       '/ubus': {
-        target: 'http://192.168.5.194'
+        target: 'http://openwrt.lan'
       },
       '/cgi-bin/': {
-        target: 'http://192.168.5.194'
+        target: 'http://openwrt.lan'
       },
       '/views/': {
-        target: 'http://192.168.5.194'
+        target: 'http://openwrt.lan'
       },
       '/i18n/': {
-        target: 'http://192.168.5.194'
+        target: 'http://openwrt.lan'
       }
     }
   },
